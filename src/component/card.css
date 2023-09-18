@@ -1,0 +1,85 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* google font */
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    
+}
+.card_box{
+    width: 250px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card_box:hover{
+    box-shadow: 0px 0px 6px 3px rgba(153,121,121,0.74);
+    transform: scale(1.01);
+}
+.card_content{
+    text-align: center;
+    padding: 20px;
+}
+.card_content img{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 10px;
+}
+.card_content h1{
+    font-size: 1.5rem;
+    margin:0;
+}
+.card_content h3{
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.card_content p{
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.card_content button{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.card_content button:hover{
+    background-color: #ccc;
+}
+
+
+
+/* app .jsx */
+.card_design{
+   max-width: 768px;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+.card_design h1{
+    margin-bottom: 10px;
+}
+.card_flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;   
+}
